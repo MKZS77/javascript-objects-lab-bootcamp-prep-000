@@ -1,1 +1,1 @@
-var recipes = {recipeOne: food};
+var recipes = {};
