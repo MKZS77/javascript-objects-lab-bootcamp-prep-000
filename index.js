@@ -7,7 +7,7 @@ function updateObjectWithKeyAndValue(object,key,value){
    console.log(recipes);
 }
 
-updateObjectWithKeyAndValue(newObj),'prop2',2);
+updateObjectWithKeyAndValue(recipes),'prop2',2);
   function destructivelyUpdateObjectWithKeyAndValue(object,key,value){
   return Object.assign(object,object[key]=value);
 }
